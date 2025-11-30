@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-folder =( r"C:\Users\admin\Documents\python_folder\ticker_csv")
+folder =( r"C:\Users\admin\Documents\python_folder\ticker_files")
 
 all_data = []
 
@@ -180,6 +180,7 @@ plt.show()
 
 
                
+
 
 
 
