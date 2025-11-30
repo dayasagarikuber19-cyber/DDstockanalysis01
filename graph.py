@@ -17,6 +17,7 @@ data = pd.concat(all_data, ignore_index=True)
 print("Data loaded successfully!")
 print("Rows:", len(data))
 print(data.head())
+
 returns = data.groupby("Ticker")["close"].apply(
     lambda x: (x.iloc[-1] - x.iloc[0]) / x.iloc[0]
 ).reset_index(name="YearlyReturn")
@@ -60,6 +61,7 @@ plt.tight_layout()
 plt.show()
 
 # second requirement of the project
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import os
@@ -97,6 +99,7 @@ plt.grid(True)
 plt.show()
 
  # 3rd requirement of the project
+
 import pandas as pd
 import glob
 import os
@@ -177,5 +180,6 @@ plt.show()
 
 
                
+
 
 
